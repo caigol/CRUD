@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>CRUD</h1>
+            <fieldset>
+                <legend>Cadastro de Cliente</legend>
+                <form action="Controle" method="post">
+                    <input type="hidden" name="flag" value="salvarcli">
+                    <p> Nome: <input type="text" name="nome" size="30"> </p>
+                    <p> Telefone: <input type="text" name="tel" size="15"> </p>
+                    <p> Idade: <input type="text" name="idade" size="8"> </p>
+                    <p> E-mail: <input type="text" name="email" size="15"> </p>
+                    <p> <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>    
+                </form>
+                <p>
+                    <a href="consultar_cliente.jsp">Consulte aqui os Clientes!!!</a>
+                </p>
+                <p>
+                    <a href="apagar_cliente.jsp">Delete aqui os Clientes!!!</a>
+                </p>
+            </fieldset>
+        </div>
+    </body>
+</html>
